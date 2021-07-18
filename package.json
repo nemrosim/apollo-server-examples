@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "start:local": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,5 +16,8 @@
     "graphql": "^15.5.1",
     "install": "^0.13.0",
     "npm": "^7.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
